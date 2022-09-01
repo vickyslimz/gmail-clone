@@ -1,0 +1,147 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+}
+#div1{
+    border: 1px solid #dadcdf;
+    padding: 10px;
+    width: 34%;
+    margin-left: 400px;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 2%;
+}
+#p1{
+    margin-left: 190px;
+    font-size: 22px;
+    margin-top: 15px;
+}
+#p2{
+    margin-left: 150px;
+    font-size: 20px;
+    margin-top: 0px;
+    font-size: 15px;
+}
+input[type=text]{
+    width: 370px;
+    height: 35px;
+    padding: 16px;
+    margin-left: 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #dadcdf;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    box-shadow: none;
+    box-decoration-break: clone;
+}
+#p3{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 57px;
+    opacity: 0.8;
+}
+#a1{
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 150px;
+    color: #1a73e8;
+    font-size: 15px;
+}
+#a2{
+    font-size: 19px;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 150px;
+    color: #1676f3;
+    font-size: 15px;
+}
+#a3{
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 150px;
+    color: #1676f3;
+    margin-left: 30px;
+    font-size: 15px;
+
+}
+
+.btn{
+    /* background-color:  #1B66C9;  */
+    color: #dadcdf; 
+    font-size: 18px;
+    width: 55px;
+    justify-content: center;
+    margin-left: 200px;
+    
+}
+button:hover{
+    cursor: pointer;
+
+}
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+/* .list{ width: 300px;
+    height: 300px;
+    background-color: green;
+    box-shadow: 0px 0px 2px black;
+    display: none;
+}
+.focus { border: none;
+
+}
+
+.focus:focus .list {  display:inherit
+} */
+.dropdown{
+    border: none;
+    margin-left: 250px;
+}
+#accordion{
+    width: 60%;
+    box-shadow: none ;
+    border: none;
+}
+/* .inl{
+display: inline-flex;
+flex-wrap:wrap;
+justify-content: space-between;
+} */
+#next{
+    margin-left: 370px;
+}
+.last{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.help{
+    margin-left: 250px;
+}
+.privacy{
+    margin-left: 20px;
+}
+.terms{
+    margin-left: 20px;
+}
+@media(max-width:1000px){
+.body{ 
+    width: 5200px;
+    height: px;
+}
+}
+@media(max-width:1000px){
+#div1{ 
+    width: 5200px ;
+    height: px;
+}
+}
