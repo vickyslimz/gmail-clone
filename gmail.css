@@ -133,15 +133,3 @@ justify-content: space-between;
 .terms{
     margin-left: 20px;
 }
-@media(max-width:1000px){
-.body{ 
-    width: 5200px;
-    height: px;
-}
-}
-@media(max-width:1000px){
-#div1{ 
-    width: 5200px ;
-    height: px;
-}
-}
